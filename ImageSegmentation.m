@@ -20,9 +20,9 @@ greenChannel = rgbImage(:,:,2);
 blueChannel  = rgbImage(:,:,3);
 figure, 
 subplot(2,2,1), imshow(grayImage);      title('Grayscale Image');
-subplot(2,2,2), imshow(redChannel);     title('Red Negative Image');
-subplot(2,2,3), imshow(greenChannel);   title('Green Negative Image');
-subplot(2,2,4), imshow(blueChannel);    title('Blue Negative Image');
+subplot(2,2,2), imshow(redChannel);     title('Red Channel Image');
+subplot(2,2,3), imshow(greenChannel);   title('Green Channel Image');
+subplot(2,2,4), imshow(blueChannel);    title('Blue Channel Image');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
